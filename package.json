@@ -96,8 +96,8 @@
     "stream-browserify": "3.0.0",
     "crypto-browserify": "3.12.0"
   },
-    "overrides": {
-    "eccrypto": "npm:@torusresearch/eccrypto#^4.0.0"
+  "overrides": {
+    "eccrypto": "github:patcito/eccrypto#^4.0.0"
   },
   "dependencies": {
     "@babel/runtime": "7.23.7",
