@@ -96,11 +96,13 @@
     "stream-browserify": "3.0.0",
     "crypto-browserify": "3.12.0"
   },
+    "overrides": {
+    "eccrypto": "npm:@torusresearch/eccrypto#^4.0.0"
+  },
   "dependencies": {
     "@babel/runtime": "7.23.7",
     "@ethereumjs/tx": "3.5.2",
     "@types/bn.js": "5.1.5",
-    "eccrypto": "github:torusresearch/eccrypto",
     "ethereumjs-util": "7.1.5",
     "ethers": "5.7.2",
     "secp256k1": "5.0.0"
