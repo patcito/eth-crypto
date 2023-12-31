@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.decryptWithPrivateKey = decryptWithPrivateKey;
-var _eccrypto = require("eccrypto");
+var _eccrypto = require("@toruslabs/eccrypto");
 var _cipher = require("./cipher");
 var _util = require("./util");
 function decryptWithPrivateKey(privateKey, encrypted) {
