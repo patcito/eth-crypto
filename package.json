@@ -1,6 +1,6 @@
 {
   "name": "eth-crypto",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "Cryptographic functions for ethereum and how to use them with web3 and solidity",
   "keywords": [
     "ethereum",
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pubkey/eth-crypto.git"
+    "url": "git+https://github.com/patcito/eth-crypto.git"
   },
   "author": "pubkey",
   "funding": "https://github.com/sponsors/pubkey",
@@ -96,7 +96,7 @@
     "webpack-cli": "5.1.4"
   },
   "dependencies": {
-    "eccrypto": "github.com:patcito/eccrypto#^4.0.0",
+    "eccrypto": "github:patcito/eccrypto#^4.0.1",
     "@babel/runtime": "7.23.7",
     "@ethereumjs/tx": "3.5.2",
     "@types/bn.js": "5.1.5",
