@@ -96,7 +96,7 @@
     "webpack-cli": "5.1.4"
   },
   "dependencies": {
-    "eccrypto": "github:patcito/eccrypto#^4.0.1",
+    "eccrypto": "github.com:patcito/eccrypto#^4.0.1",
     "@babel/runtime": "7.23.7",
     "@ethereumjs/tx": "3.5.2",
     "@types/bn.js": "5.1.5",
