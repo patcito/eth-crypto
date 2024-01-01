@@ -95,13 +95,10 @@
     "webpack-bundle-analyzer": "4.10.1",
     "webpack-cli": "5.1.4"
   },
-  "overrides": {
-    "eccrypto": "github:patcito/eccrypto#^4.0.0"
-  },
   "dependencies": {
+    "eccrypto": "github:patcito/eccrypto#^4.0.0",
     "@babel/runtime": "7.23.7",
     "@ethereumjs/tx": "3.5.2",
-    "@toruslabs/eccrypto": "^4.0.0",
     "@types/bn.js": "5.1.5",
     "ethereumjs-util": "7.1.5",
     "ethers": "5.7.2",
